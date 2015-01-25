@@ -1,7 +1,7 @@
 ## Assignement 2 - Caching time consuming functions results.
 
 
-## Write a short comment describing this function
+## This function creates a matrix object that can cache its inverse.
 
 makeCacheMatrix <- function(A = matrix()) {
 
@@ -26,10 +26,10 @@ makeCacheMatrix <- function(A = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function computes the inverse of the matrix returned by makeCacheMatrix.
 
 cacheSolve <- function(A, ...) {
-        ## Return a matrix that is the inverse of 'x'
+        ## Return a matrix that is the inverse of matrix 'A'
 
  	A.inv <- A$get_matrix_A.inv()
     
